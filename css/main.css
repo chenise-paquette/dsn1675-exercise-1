@@ -1,0 +1,58 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.figure {
+  display: inline-block;
+  position: relative
+  width: 100%;
+}
+
+.caption {
+ color: white;
+ position:absolute;
+ bottom:1rem;
+ left:1rem;
+ right:1rem;
+ text-align: left;
+}
+
+
+ .info {
+ display: inline-block;    
+ width: 30%;
+ font-style: normal;
+ text-transform: uppercase;
+ font-size: 1rem;
+}
+
+.h2 {
+ font-style: normal;
+ color: grey;
+ 
+ 
+ 
+ 
